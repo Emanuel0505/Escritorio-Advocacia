@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    display: table;
+    width: 100%;
+    height: 100%;
+}   
+
+#caixa{
+    display: flex;
+    justify-content: center; 
+   
+    
+}
+
+#serv{
+  background-color:#dbd9d9;
+  color:black; 
+  padding: 2% 2% 5% 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#serv h1{
+    text-align: center;
+    font-size: 250%
+}
+#serv h4{
+    text-align: left;
+    font-size: 150%;
+}
+#serv p{
+    text-align: justify;
+    font-size: 120%;
+   
+
+}
+

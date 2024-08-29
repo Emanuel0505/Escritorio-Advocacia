@@ -1,0 +1,159 @@
+/* PARTE DO MENU*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+#imgmenu{
+    width: 33%;
+}
+#menu{
+    background-color: #152039;
+    display: block;
+    padding: 1% 1.4% 1% 2.5%;
+}
+#menu ul{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+}
+#li{
+    margin: 1% 0% 0% 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+}
+#li a{
+    display: inline;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0% 19% 0% 19%;
+    color:white;
+    font-size: 200%;
+}
+#li a:hover{
+    background-color: #32487d;
+    border-radius: 5%;
+    transition: all 0.4s;
+}
+#menu2{
+    font-
+    transition: width 0.5s;
+    background-color: #32487d;
+    border-radius: 5% 0% 0% 5%;
+    position: fixed;
+    display: block;
+    margin: 0%;         
+    padding: 0%;
+    top: 13%;
+    right: 0%;
+    width: 0%;
+    height: 440px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.521);
+}
+#menu2 div{
+    display: block;
+}
+.icon-m{
+    width: 100%;
+    height: 8%;
+}
+.li2{
+    list-style: none;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+}
+.a{
+    display: block;
+    text-decoration: none;
+    margin: 0% 2% 0% 2%;
+    padding: 3% 0% 1% 6%;
+    border-bottom: solid 1px white;
+    font-size: 125%;     
+    color: white;  
+    text-align:left;
+}
+.a:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.7s;
+}
+#menux{
+    position: relative;
+    left: 93.2%;
+    top: 2%;
+    margin: 0% 0% 5% 0%;
+}
+#menux a{
+    padding: 0% 1% 0% 1%;
+    color:white;
+   text-decoration: none;
+}
+#menux a:hover{
+    background-color: #38518b;
+}
+#menu-f{
+    display: block;
+    margin: 26% 0% 0% 8%;
+    
+}
+#menu-f li{
+    list-style: none;
+    display: inline-block;
+}
+#menu-f p{
+    color:white;
+    font-size: 90%;
+}
+
+/*PARTE DO RODAPÉ*/
+#final{
+    display: block;
+    background-color: #152039;
+    margin:0%;
+    width: 100%;
+    padding: 2% 2.5% 1% 2.5%;
+    color: white;
+}
+
+#final ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-img{
+    display: block;
+    margin: 0% 0% 0% 0%;
+    padding: 0%;
+}
+#li-img a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0%;
+}
+
+#li-text{
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    font-size: 10   0%;
+}
+#li-text{
+    padding: 0%;
+    text-align: right;
+    margin: 0%;
+}
+ 
+.icon-ins{
+    width: 6.7%;
+   
+}

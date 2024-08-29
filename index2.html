@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jogo de Plataforma 2D</title>
+	<style type="text/css">
+		#quad {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 50px;
+			height: 50px;
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<div id="quad"></div>
+	<canvas id="tela" width="600" height="400"></canvas>
+  <script type="text/javascript">
+    var quad = document.getElementById("quad");
+    var tela = document.getElementById("tela");
+    var contexto = tela.getContext("2d");
+  
+    var x = 0;
+    var y = 0;
+    var largura = 50;
+    var altura = 50;
+    var gravidade = 0.8;
+    var pulo = 10;
+    var forcaPulo = 15;
+    var pisando = false;
+  
+    document.addEventListener("keydown", function(event) {
+      if (event.keyCode == 37) { //seta esquerda
+        x -= 50;
+      }
+      if (event.keyCode == 39) { //seta direita
+        x += 50;
+      }
+      if (event.keyCode == 38) { //seta cima
+        if (pisando) {
+          pulo = -forcaPulo;
+          pisando = false;
+        }
+      }
+    });
+  
+    function atualizar() {
+      quad.style.left = x + "px";
+      quad.style.top = y + "px";
+      y += pulo;
+      pulo += gravidade;
+  
+      if (y > 350) {
+        y = 350;
+        pulo = 0;
+        pisando = true;
+      }
+    }
+  
+    setInterval(atualizar, 10);
+  </script>
+</body>
+</html>  

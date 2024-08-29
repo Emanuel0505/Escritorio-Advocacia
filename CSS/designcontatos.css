@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+body{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.box{   
+    display: inline-block;
+    padding:  0% 0% 0% 4%;
+    margin: 0%;
+}
+
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    
+}
+#ad-1{
+    background-color:forestgreen ;
+    border-radius: 4%;
+    font-size: 40%;
+    text-align: center;
+    padding: 2% 1.5% 2% 1.5%;
+    margin: 4% 5% 5% 0%;
+    width: 100%;
+    height: 280px;
+    box-shadow:rgb(50, 48, 48) 0px 7px 38px;
+    display: block;
+    
+}
+#ad-2{
+    background-color:#152039 ;
+    border-radius: 4%;
+    font-size: 40%;
+    text-align: center;
+    padding: 2% 1.5% 2% 1.5%;
+    margin: 4% 5% 5% 0%;
+    width: 100%;
+    height: 280px;
+    box-shadow:rgb(50, 48, 48) 0px 7px 38px;
+    display: block;
+    
+    
+}
+#ad-3{
+    background-color: brown;
+    border-radius: 4%;
+    font-size: 40%;
+    text-align: center;
+    padding: 2% 1.5% 2% 1%;
+    margin: 4% 5% 5% 0%;
+    width: 100%;
+    height: 280px;
+    box-shadow:rgb(50, 48, 48) 0px 7px 38px;
+    display: block;
+}
+.box2{
+    margin: 4% 22.5% 0% 0%;
+    padding: 0%;
+    float: right;
+}
+#ad-4{
+    border-radius: 4%;
+    font-size: 80%;
+    text-align: left;
+    padding: 0%;
+    margin: 140% 0% 0% 0%;
+    width: 120%;
+    height: 280px;
+    display: block;
+    
+}
+#ad-4 form div label{
+    font-size: 150%;
+    color: black;
+
+}
+#ad-4 form div textarea{
+    font-size: 160%;
+    color: black;
+    font-weight: bold;
+    width: 200%;
+    height: 30%;
+    background-color: #a3a0a0;
+    border-radius: 2%;
+    color: white;
+    
+}
+.input1{
+    height: 20%;
+    width: 200%;
+    border-radius: 5px;
+    border: none;
+    font-size: 120%;
+    font-weight: bold;
+    color:white;
+    padding: 1% 0% 1% 1%;
+    background-color: #a3a0a0;
+    margin-bottom: 2%;
+    border: black;
+    border: 2%;
+    
+
+}
+.button{
+    margin: 3% 0% 0% 0%;
+    padding: 1% 2% 1% 2%;
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    border:none;
+    border-radius: 5%;
+    color:white;
+    margin-left: 70%;
+    width: 60%;
+    height: 25%;
+}
+.button:hover{
+    background-color: #a3a0a0;
+}
+
+.text-icon{
+    text-align: center;
+    font-size:400%;
+    color: white;
+    margin-bottom: 4%;
+    
+}
+
+

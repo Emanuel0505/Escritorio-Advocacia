@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+.p-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{   
+    display: flex;
+    justify-content: center;
+}
+
+/*Codigo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+/* Desenvolvimento do site*/
+
+#bloco{
+    display:block;
+    margin: 0%;
+    padding: 0%;
+}
+/*parte de inicio do site*/
+#inicio{
+    transition: all 0.7s;
+    background-image: url(../IMG/direito.jpg);
+    display:inline-block;
+    background-size: 100% 102%; 
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+#inicio div{ 
+    margin: 15% 4% 19.5% 0%;
+    padding: 0% 0% 0% 0%;
+}
+
+#inicio pre{
+    color:white;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: end;
+}
+
+#p1{
+    display:inline-block;
+    font-size: 125%;    
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0.3% 2%;
+    border-bottom: 3px solid white;      
+}
+
+#p2{
+    display: inline-block;
+    margin: 0%;
+    padding: 0%;    
+    font-weight: bold;
+    font-size: 215%;
+}
+
+/*parte onde fala sobre os advogados*/
+#advogado{
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 200%; 
+    transition: all 1s; 
+    padding: 3% 0% 0% 0%;
+}
+#p-t-ad{
+    text-align: center;
+    font-size: 140%;
+    color: black;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    margin: 0% 0% 0% 5%;
+    padding: 0%;
+}
+
+.ad{
+    background-color: white;
+    border-radius: 4%;
+    font-size: 40%;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    margin: 2% 5% 5% 0%;
+    width: 28%;
+    height: 100%
+}
+.ad p{
+    font-size: 130%;
+    text-align: center;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 2%;
+    box-shadow:rgb(50, 48, 48) 0px 7px 38px;
+}
+
+/*parte de area de atuação*/
+.area{
+    padding-bottom: 3%;
+    padding-top: 2% ;
+    display:block;
+    background-color:lightgray ;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    transition: all 1s;
+}
+
+#atuacao{
+    margin: 0% 0% 1% 0%;
+    display: block;
+    text-align: center;
+    font-size: 250%;
+    color: black;
+    width: auto;
+}
+.cd{
+    background-color: #152039;
+    width:20%;
+    height:30%;
+    display:inline;
+    border-radius: 15px;
+    padding: 0% 0% 1% 0%;
+    margin: 2% 4% 2% 4% ;
+    color: #D9D9D9;
+    box-shadow:rgb(50, 48, 48) 0px 19px 38px;
+}
+.cd div{
+    display: block;
+}
+.icon{
+    margin: 4% 0% 2.5% 0%;
+    width:60px;
+    height: 55px;
+}
+.div-t{
+    display: block;
+    margin: 0% 0% 10% 0%;
+    height: 190px;
+}
+
+.t2{
+    font-family: 'Times New Roman', Times, serif;   
+    margin: 0% 4% 10% 4%;
+    text-align: center;
+    height: 100%;
+}
